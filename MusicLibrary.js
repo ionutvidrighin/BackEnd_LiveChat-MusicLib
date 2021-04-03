@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 
 var MusicLibrary = mongoose.Schema({
+    img: String,
     name: String,
     url: String
 });
